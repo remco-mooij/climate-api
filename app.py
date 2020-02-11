@@ -29,6 +29,12 @@ app = Flask(__name__)
 def index():
     return (
         f"Welcome to the Climate app <br/>"
+        f"Available Routes:<br/>"
+        f"/api/v1.0/precipitation<br/>"
+        f"/api/v1.0/stations<br/>"
+        f"/api/v1.0/tobs<br/>"
+        f"/api/v1.0/(enter_start_date)<br/>"
+        f"/api/v1.0/(enter_start_date)/(enter_end_date)"
     )
 
 
@@ -113,7 +119,6 @@ def stats_start(start):
     stats_dict = {"Minimum temperature": tmin, "Average temperature": tavg, "Maximum temperature": tmax}
     stats_list.append(stats_dict)
        
-
     return jsonify(stats_list)
 
 @app.route("/api/v1.0/<start>/<end>")
