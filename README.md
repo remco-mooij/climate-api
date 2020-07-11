@@ -1,4 +1,6 @@
 Climate Flask API
+![Histogram](https://github.com/remco-mooij/climate-api/blob/master/histogram.png)
+
 Using Python and SQLalchemy, [climate analysis and data exploration](https://github.com/remco-mooij/climate-app/blob/master/climate_analysis.ipynb) was performed on a [climate database](https://github.com/remco-mooij/climate-app/blob/master/Resources/hawaii.sqlite).
 The data was used to calculate the minimum, maximum and average temperatures on Hawaii between July 1 - 14 to plan for a trip to Honolulu.
 
