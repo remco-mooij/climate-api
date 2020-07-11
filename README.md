@@ -5,13 +5,13 @@ The data was used to calculate the minimum, maximum and average temperatures on 
 A Flask API was designed based on the SQLAlchemy ORM queries that were developed. This API has the following available routes:
 
 
-/ (home page with list of available routes)
+*/ (home page with list of available routes)
 
 
-/api/v1.0/precipitation
+*/api/v1.0/precipitation
 
 
-/api/v1.0/stations
+*/api/v1.0/stations
 
 
 /api/v1.0/tobs
