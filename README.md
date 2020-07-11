@@ -13,3 +13,8 @@ A Flask API was designed based on the SQLAlchemy ORM queries that were developed
 * /api/v1.0/tobs
 * /api/v1.0/(enter_start_date)
 * /api/v1.0/(enter_start_date)/(enter_end_date)
+
+To use the Flask API, run the following command in the root directory of the repo:
+```
+python app.py
+```
